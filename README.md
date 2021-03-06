@@ -8,5 +8,7 @@ After which you may create and or connect to a container in that database named 
 The container will be automatically populated with that day's option data. 
 Setting this up to run every day on a list of tickers of interest provides a simple free way to create a historical option chain database.
 
+```python
 test = getOptionsData("yahooParser") # OptionChainData
 test.populateDatabase('F') # Ticker
+```
